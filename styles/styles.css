@@ -87,7 +87,7 @@
   position: relative;
   padding: 10px;
   width: 250px;
-  height: 320px;
+  height: 322px;
   border-radius: 4px;
   border: 0.7px solid rgba(134, 134, 134, 0.1);
 }
@@ -100,6 +100,9 @@
 }
 .card__offer-lable_type_leader {
   fill: #F2994A;
+}
+.card__name {
+  margin-top: -5px;
 }
 .card__offer-text {
   color: white;
@@ -114,21 +117,79 @@
   fill: #5661CB;
 }
 .card__image {
-  margin-top: 30px;
-  margin-left: 50px;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
   width: 145px;
   height: 86px;
 }
 .card__text {
+  margin-top: -10px;
   color: #494949;
 }
 .card__free-ship-text {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #7d7d7d;
+  font-size: 12px;
 }
 .card__available-text {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #27AE60;
+  font-size: 12px;
+}
+.card__bottom-text {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+}
+.card__prices {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__current-price {
+  font-size: 12px;
+}
+.card__current-price span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card__old-price {
+  font-size: 10px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+}
+.card__old-price span {
+  font-size: 14px;
+}
+.card__buttons-line {
+  display: flex;
+  justify-content: space-between;
+}
+.card__button-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 7px auto;
+}
+.card__add-to-card-button {
+  display: block;
+  width: 55px;
+  height: 33px;
+  border: #5661CB solid 2px;
+  border-radius: 10px;
+}
+
+.button {
+  background-color: #5661CB;
+  color: white;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-size: 14px;
 }/*# sourceMappingURL=styles.css.map */
